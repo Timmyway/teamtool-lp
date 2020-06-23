@@ -99,7 +99,7 @@ class Lead extends Dbconnect{
 }
 
 
-$lead = new Lead('192.169.244.53', 'timtests', 'eSNm9pjJ', 'timtests');
+$lead = new Lead('localhost', 'root', '', 'teamtool');
 
 $lead->db_connect();
 $lead->validate();

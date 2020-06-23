@@ -1,6 +1,6 @@
 <?php
 	function baseUrl($append = '') {
-		$base_url = 'http://testim.kontikimedia.fr/teamtool/';
+		$base_url = 'http://localhost/teamtool/';
 		return $base_url . $append;
 	}
 ?>
